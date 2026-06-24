@@ -40,11 +40,15 @@ The objective is to identify violation trends, agency performance, seasonal patt
 
 ## Project Screenshots
 
-![Top Violations](visuals/top_violations.png)
+![Top Violations](visuals/Top%20Violations.png)
 
-![Weather Join](visuals/weather_join.png)
+![Top Agencies](visuals/Top%20Agencies.png)
 
-![Window Functions](visuals/window_function_ranking.png)
+![Violations by Hour](visuals/Violations%20by%20Hour.png)
+
+![Weather Join](visuals/Weather%20%2B%20Violations%20Join.png)
+
+![Window Function Ranking](visuals/Window%20Function%20Ranking.png)
 
 ## Author
 
