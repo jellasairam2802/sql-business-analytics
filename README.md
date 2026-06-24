@@ -37,6 +37,15 @@ The objective is to identify violation trends, agency performance, seasonal patt
 5. Which locations generate the highest number of violations?
 6. What are the highest fine-generating violations?
 
+
+## Project Screenshots
+
+![Top Violations](visuals/top_violations.png)
+
+![Weather Join](visuals/weather_join.png)
+
+![Window Functions](visuals/window_function_ranking.png)
+
 ## Author
 
 Sai Ram Jella
