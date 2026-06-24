@@ -1,1 +1,60 @@
+CREATE DATABASE IF NOT EXISTS dc_violations;
 
+USE dc_violations;
+
+CREATE TABLE violations (
+    ticket_id BIGINT,
+    issue_date VARCHAR(20),
+    issue_month VARCHAR(10),
+    day_of_week VARCHAR(20),
+    issue_hour INT,
+    issuing_agency_name VARCHAR(255),
+    issuing_agency_short VARCHAR(50),
+    violation_code VARCHAR(50),
+    violation_desc VARCHAR(255),
+    accident_indicator VARCHAR(20),
+    fine_amount DECIMAL(10,2),
+    penalty_1 DECIMAL(10,2),
+    penalty_2 DECIMAL(10,2),
+    penalty_3 DECIMAL(10,2),
+    penalty_4 DECIMAL(10,2),
+    penalty_5 DECIMAL(10,2),
+    total_fine DECIMAL(10,2),
+    weather_date VARCHAR(20)
+);
+
+CREATE TABLE weather (
+    name VARCHAR(255),
+    weather_date VARCHAR(50),
+    tempmax VARCHAR(50),
+    tempmin VARCHAR(50),
+    temp VARCHAR(50),
+    feelslikemax VARCHAR(50),
+    feelslikemin VARCHAR(50),
+    feelslike VARCHAR(50),
+    dew VARCHAR(50),
+    humidity VARCHAR(50),
+    precip VARCHAR(50),
+    precipprob VARCHAR(50),
+    precipcover VARCHAR(50),
+    preciptype VARCHAR(100),
+    snow VARCHAR(50),
+    snowdepth VARCHAR(50),
+    windgust VARCHAR(50),
+    windspeed VARCHAR(50),
+    winddir VARCHAR(50),
+    sealevelpressure VARCHAR(50),
+    cloudcover VARCHAR(50),
+    visibility VARCHAR(50),
+    solarradiation VARCHAR(50),
+    solarenergy VARCHAR(50),
+    uvindex VARCHAR(50),
+    severerisk VARCHAR(50),
+    sunrise VARCHAR(50),
+    sunset VARCHAR(50),
+    moonphase VARCHAR(50),
+    conditions VARCHAR(255),
+    description TEXT,
+    icon VARCHAR(100),
+    stations TEXT
+);
