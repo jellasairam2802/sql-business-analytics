@@ -1,10 +1,17 @@
-# SQL Business Analytics
-
 ## Overview
 
-This project demonstrates SQL-based business analysis using retail and supply chain data.
+This project analyzes Washington, DC traffic violations and weather conditions using SQL.
 
-The objective is to generate actionable business insights through SQL queries, KPI reporting, and data analysis.
+The objective is to identify violation trends, agency performance, seasonal patterns, weather impacts, and enforcement insights through SQL-based data analysis.
+
+---
+
+## Dataset
+
+- Traffic Violations Dataset
+- Weather Dataset
+- Location: Washington, DC
+- Analysis Period: 2024–2025
 
 ---
 
@@ -16,37 +23,19 @@ The objective is to generate actionable business insights through SQL queries, K
 - Aggregations
 - KPI Analysis
 - Data Cleaning
+- Trend Analysis
 - Business Reporting
 
 ---
 
 ## Business Questions
 
-1. Which products generate the highest revenue?
-2. Which regions perform best?
-3. What are monthly sales trends?
-4. Which customers contribute the most revenue?
-5. Are there shipping delays impacting performance?
-6. What inventory or supply chain risks exist?
-
----
-
-## Project Structure
-
-- data/
-- sql/
-- visuals/
-- reports/
-
----
-
-## Tools
-
-- MySQL
-- SQL
-- Excel
-
----
+1. Which violations occur most frequently?
+2. Which agencies issue the most citations?
+3. How do weather conditions affect violations?
+4. What are the monthly violation trends?
+5. Which locations generate the highest number of violations?
+6. What are the highest fine-generating violations?
 
 ## Author
 
